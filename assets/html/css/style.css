@@ -3,15 +3,16 @@
 
 body {
 	height: 100vh;
-
-	font-family: 'Poppins', sans-serif;
-}
-
-nav {
 	background: url(../../img/wave-left.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: 'Poppins', sans-serif;
 }
+
+/* nav {
+	
+	height: 200px;
+} */
 
 .navbar {
 
@@ -52,7 +53,7 @@ button {
 
 @media (max-width: 767px) {
 	body {
-
+		background: none;
 		height: 100vh
 	}
 
