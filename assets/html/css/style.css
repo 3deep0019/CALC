@@ -3,16 +3,22 @@
 
 body {
 	height: 100vh;
+
+	font-family: 'Poppins', sans-serif;
+}
+
+nav {
 	background: url(../../img/wave-left.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
 
 	border: 0;
 }
+
+
 
 .navbar-brand {
 	font-size: 40px;
@@ -46,10 +52,19 @@ button {
 
 @media (max-width: 767px) {
 	body {
+
+		height: 100vh
+	}
+
+	nav {
 		background: url(../../img/wave-mobile-2.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 100vh
+		height: 200px;
+	}
+
+	nav a {
+		margin-top: -50px;
 	}
 
 	#inputs,
@@ -60,10 +75,7 @@ button {
 
 	.navbar-brand {
 		padding-left: 20px;
-	}
 
-	#main-content {
-		margin: 120px 0;
 	}
 
 	#heading h1 {
