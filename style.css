@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: url('./assets/Exclude.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 60px 100px 40px;
+    color: white;
+    height: 300px;
+}
+
+#container {
+    margin-top: -50px;
+    padding: 10px 15px;
+}
+
+.sec h1 {
+    color: #4bb6f2;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.sec p {
+    color: #9e8989;
+    margin: 8px 0;
+}
+
+#right_one {
+    text-align: right;
+    margin: 10px 0 30px;
+}
+
+#left_one {
+    text-align: left;
+    margin: 70px 0;
+}
+
+.btn {
+    background-color: #4bb6f2;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        background: url('./assets/tab-h-bg.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    #container {
+        padding: 10px;
+        display: flex;
+        margin: 30px;
+        justify-content: center;
+    }
+
+    .sec {
+        width: 300px;
+    }
+
+    .sec h1 {
+        color: #4bb6f2;
+        font-size: 50px;
+    }
+
+    .sec p {
+        color: #9e8989;
+        margin: 8px 0;
+    }
+
+    #right_one {
+        margin: 30px 10px;
+        border-right: thin #9e8989 solid;
+        padding: 30px;
+    }
+
+    #left_one {
+        margin: 100px 20px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    header {
+        background: url('./assets/des-h-bg.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    #container {
+        padding: 10px;
+        display: flex;
+        margin-top: -120px;
+        justify-content: center;
+    }
+
+    .sec {
+        width: 500px;
+    }
+
+    .sec h1 {
+        color: #4bb6f2;
+        font-size: 50px;
+    }
+
+    .sec p {
+        color: #9e8989;
+        margin: 8px 0;
+        font-size: 20px;
+    }
+
+    #right_one {
+        margin: 30px 10px;
+        border-right: thin #9e8989 solid;
+        padding: 30px;
+    }
+
+    #left_one {
+        margin: 100px 20px;
+        padding: 30px;
+    }
+}
