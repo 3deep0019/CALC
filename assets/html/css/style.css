@@ -3,16 +3,25 @@
 
 body {
 	height: 100vh;
-	background: url(../../img/wave-left.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
 	font-family: 'Poppins', sans-serif;
 }
 
-/* nav {
-	
-	height: 200px;
-} */
+nav {
+	background: url(../../img/wave-left.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 470px;
+	width: 20%;
+}
+
+nav a {
+	margin-top: -300px;
+}
+
+
+.container {
+	margin-top: -400px;
+}
 
 .navbar {
 
@@ -62,11 +71,17 @@ button {
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 200px;
+		width: 100%;
 	}
 
 	nav a {
 		margin-top: -50px;
 	}
+
+	.container {
+		margin-top: 0px;
+	}
+
 
 	#inputs,
 	#input-data,
